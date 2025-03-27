@@ -1,0 +1,9 @@
+[submodule "telo-mini-backend"]
+	path = telo-mini-backend
+	url = https://github.com/mitatkaranfil/railway.git
+	branch = master
+
+[submodule "telo-mini-fronted"]
+	path = telo-mini-fronted
+	url = https://github.com/mitatkaranfil/railway.git
+	branch = master

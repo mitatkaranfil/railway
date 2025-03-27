@@ -2,6 +2,7 @@
   base = "telo-mini-fronted"
   publish = "build"
   command = "npm run build"
+  ignore_submodules = true
 
 [[redirects]]
   from = "/api/*"
