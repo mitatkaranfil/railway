@@ -1,11 +1,10 @@
 [phases.setup]
 nixPkgs = ["nodejs", "php", "php81Extensions.pdo_mysql", "php81Extensions.pdo_pgsql"]
+cmds = ["npm install -g serve"]
 
 [phases.build]
 cmds = [
-  "cd telo-mini-fronted && npm install && npm run build",
-  "mkdir -p telo-mini-backend/public/build",
-  "cp -r telo-mini-fronted/build/* telo-mini-backend/public/",
+  "echo 'Skipping frontend build for now'",
   "cd telo-mini-backend && composer install --no-dev"
 ]
 
