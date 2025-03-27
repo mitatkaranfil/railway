@@ -1,0 +1,17 @@
+{
+  "name": "cosmofy",
+  "version": "1.0.0",
+  "description": "Telegram Mini App for Crypto Mining",
+  "scripts": {
+    "build": "node build.js",
+    "start": "cd telo-mini-backend && php artisan serve --host=0.0.0.0 --port=$PORT",
+    "postinstall": "cd telo-mini-fronted && npm install && cd ../telo-mini-backend && composer install"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}

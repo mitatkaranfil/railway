@@ -1,0 +1,36 @@
+# Laravel
+/telo-mini-backend/node_modules
+/telo-mini-backend/public/hot
+/telo-mini-backend/public/storage
+/telo-mini-backend/storage/*.key
+/telo-mini-backend/vendor
+/telo-mini-backend/.env
+/telo-mini-backend/.env.backup
+/telo-mini-backend/.phpunit.result.cache
+/telo-mini-backend/Homestead.json
+/telo-mini-backend/Homestead.yaml
+/telo-mini-backend/npm-debug.log
+/telo-mini-backend/yarn-error.log
+
+# React
+/telo-mini-fronted/node_modules
+/telo-mini-fronted/.pnp
+/telo-mini-fronted/.pnp.js
+/telo-mini-fronted/coverage
+/telo-mini-fronted/build
+/telo-mini-fronted/.DS_Store
+/telo-mini-fronted/.env.local
+/telo-mini-fronted/.env.development.local
+/telo-mini-fronted/.env.test.local
+/telo-mini-fronted/.env.production.local
+/telo-mini-fronted/npm-debug.log*
+/telo-mini-fronted/yarn-debug.log*
+/telo-mini-fronted/yarn-error.log*
+
+# Genel
+.DS_Store
+.env
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
