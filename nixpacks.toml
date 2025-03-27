@@ -1,0 +1,13 @@
+[phases.setup]
+nixPkgs = ["nodejs", "php", "php81Extensions.pdo_mysql", "php81Extensions.pdo_pgsql"]
+
+[phases.build]
+cmds = [
+  "cd telo-mini-fronted && npm install && npm run build",
+  "mkdir -p telo-mini-backend/public/build",
+  "cp -r telo-mini-fronted/build/* telo-mini-backend/public/",
+  "cd telo-mini-backend && composer install --no-dev"
+]
+
+[start]
+cmd = "cd telo-mini-backend && php artisan serve --host=0.0.0.0 --port=$PORT"
